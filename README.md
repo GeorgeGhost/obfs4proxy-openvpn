@@ -46,7 +46,7 @@ The script must be run as root to do its magic but it will use a dedicated accou
   * [openvpn_client.conf.obfs4.sample](examples/openvpn_client.conf.obfs4.sample) / [openvpn_server.conf.obfs4.sample](examples/openvpn_server.conf.obfs4.sample) contain samples of OpenVPN client/server configurations.
 * [obfs4proxy-openvpn.service.sample](examples/obfs4proxy-openvpn.service.sample) contains sample of a systemd unit for obfs4proxy-openvpn.
 * Also in order to run the this script, pre-shared key must be created and also be imported to the client:
-	*This can be done using a simple command: `openvpn --genkey --secret /etc/openvpn/secret.obfs4.key`
+	* This can be done using a simple command: `openvpn --genkey --secret /etc/openvpn/secret.obfs4.key`
 ### Usage
 
 `obfs4proxy-openvpn --help` should give you some basic info on the command line arguments.
